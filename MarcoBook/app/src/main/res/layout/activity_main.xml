@@ -8,6 +8,7 @@
     android:background="#D9000000"
     android:id="@+id/main"
     >
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -80,6 +81,568 @@
                         android:textColor="#75FFFFFF"
                         />
                     
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageButton
+                        android:layout_width="369dp"
+                        android:layout_height="176dp"
+                        android:src="@drawable/image"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@android:color/transparent"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_mais_vendidos"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mais vendidos"
+                            android:textSize="10sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageButton
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_lancamentos"
+                            android:backgroundTint="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lançamentos"
+                            android:textSize="10sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageButton
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_prevenda"
+                            android:backgroundTint="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pré-venda"
+                            android:textSize="10sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageButton
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_mitologia"
+                            android:backgroundTint="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mitologia"
+                            android:textSize="10sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageButton
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_todos_livros"
+                            android:backgroundTint="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Todos os livros"
+                            android:textSize="10sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mais vendidos"
+                        android:textColor="#790A0A"
+                        android:textSize="24sp"
+                        android:paddingLeft="20dp"
+                        />
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            
+                            <ImageButton
+                                android:layout_width="122dp"
+                                android:layout_height="152dp"
+                                android:src="@drawable/ic_book1"
+                                android:scaleType="fitCenter"
+                                android:backgroundTint="@android:color/transparent"
+                                />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="left"
+                                >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Um dia sem reclamar"
+                                android:textSize="12sp"
+                                android:drawableLeft="@drawable/ic_arrow_right_full"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:drawableTint="@color/white"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R$ 69,90"
+                                android:textColor="@color/white"
+                                android:paddingLeft="15dp"
+                                />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <ImageButton
+                                android:layout_width="122dp"
+                                android:layout_height="152dp"
+                                android:src="@drawable/ic_book2"
+                                android:scaleType="fitCenter"
+                                android:backgroundTint="@android:color/transparent"
+                                />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="left"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="A geração ansiosa"
+                                    android:textSize="12sp"
+                                    android:drawableLeft="@drawable/ic_arrow_right_full"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:drawableTint="@color/white"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="R$ 49,99"
+                                    android:textColor="@color/white"
+                                    android:paddingLeft="15dp"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <ImageButton
+                                android:layout_width="122dp"
+                                android:layout_height="152dp"
+                                android:src="@drawable/ic_book3"
+                                android:scaleType="fitCenter"
+                                android:backgroundTint="@android:color/transparent"
+                                />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="left"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Como convencer..."
+                                    android:textSize="12sp"
+                                    android:drawableLeft="@drawable/ic_arrow_right_full"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:drawableTint="@color/white"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="R$ 49,99"
+                                    android:textColor="@color/white"
+                                    android:paddingLeft="15dp"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageButton
+                        android:layout_width="369dp"
+                        android:layout_height="176dp"
+                        android:src="@drawable/ic_banner2"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@android:color/transparent"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Promoção"
+                        android:textColor="#790A0A"
+                        android:textSize="24sp"
+                        android:paddingLeft="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageButton
+                                    android:layout_width="122dp"
+                                    android:layout_height="152dp"
+                                    android:src="@drawable/ic_book4"
+                                    android:scaleType="fitCenter"
+                                    android:backgroundTint="@android:color/transparent"
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:gravity="left"
+                                    android:paddingLeft="10dp"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="42% off"
+                                        android:textColor="@color/white"
+                                        android:background="#882525"
+                                        android:textSize="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Oferta"
+                                        android:textColor="#882525"
+                                        android:layout_marginLeft="5dp"
+                                        android:textSize="10dp"
+                                        />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="O animal social"
+                                android:textSize="12sp"
+                                android:drawableLeft="@drawable/ic_arrow_right_full"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:drawableTint="@color/white"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageButton
+                                    android:layout_width="122dp"
+                                    android:layout_height="152dp"
+                                    android:src="@drawable/ic_book5"
+                                    android:scaleType="fitCenter"
+                                    android:backgroundTint="@android:color/transparent"
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:gravity="left"
+                                    android:paddingLeft="10dp"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="54% off"
+                                        android:textColor="@color/white"
+                                        android:background="#882525"
+                                        android:textSize="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Oferta"
+                                        android:textColor="#882525"
+                                        android:layout_marginLeft="5dp"
+                                        android:textSize="10dp"
+                                        />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Quebrando o hábito\nde ser você mesmo"
+                                android:textSize="12sp"
+                                android:drawableLeft="@drawable/ic_arrow_right_full"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:drawableTint="@color/white"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+
+                                <ImageButton
+                                    android:layout_width="122dp"
+                                    android:layout_height="152dp"
+                                    android:src="@drawable/ic_book6"
+                                    android:scaleType="fitCenter"
+                                    android:backgroundTint="@android:color/transparent"
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:gravity="left"
+                                    android:paddingLeft="10dp"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="54% off"
+                                        android:textColor="@color/white"
+                                        android:background="#882525"
+                                        android:textSize="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Oferta"
+                                        android:textColor="#882525"
+                                        android:layout_marginLeft="5dp"
+                                        android:textSize="10dp"
+                                        />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Verity(Edição de\ncolecionador)"
+                                android:textSize="12sp"
+                                android:drawableLeft="@drawable/ic_arrow_right_full"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:drawableTint="@color/white"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
                 </LinearLayout>
                 
             </LinearLayout>
