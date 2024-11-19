@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="383dp"
+                android:layout_height="52dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_background"
+                android:backgroundTint="#26FFFFFF"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca e devoluções"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:text="1. Condições gerais\n
+As entregas são realizadas de segunda-feira a sexta-feira, das 8h às 21h.O prazo de entrega é contado a partir da confirmação do pagamento em dias úteis, ou seja, não inclui sábados, domingos e feriados.Excepcionalmente entregas podem ocorrer aos sábados, domingos e feriados.Por favor, confira as dimensões do produto e certifique-se de que estão adequadas aos elevadores, portas e corredores do local da entrega, pois não fazemos a montagem, desmontagem do produto e/ou portas e janelas, transporte pela escada ou içamento pelo lado de fora do prédio.IMPORTANTE: após a finalização do pedido não é possível alterar a forma de entrega, solicitar adiantamento ou prioridade. Todos os prazos de entrega levam em consideração o estoque, a região, o processo de emissão da nota fiscal e o tempo de preparo do produto. A cada atualização no status do pedido nosso sistema envia, automaticamente, e-mails de alerta. Por isso, é importante manter seu e-mail atualizado no cadastro.\n
+Após a conclusão do pedido, não é possível alterar o endereço de entrega. Caso tenha fornecido o endereço errado, entre em contato com o setor de atendimento ao cliente e solicite o cancelamento da compra.\n
+Após efetuar o cancelamento, atualize o endereço de entrega no seu cadastro. Clique aqui para alterá-lo.IMPORTANTE: por motivos de segurança, em hipótese alguma nossos operadores alteram o endereço de entrega ou os dados cadastrais dos clientes.Caso tenha fornecido o endereço incompleto, entre em contato com o setor de atendimento ao cliente e informe os dados que faltaram.IMPORTANTE: será possível, somente, acrescentar informações complementares como bloco, andar, ponto de referência. Não é permitido alterar o nome da rua ou o número do prédio/casa, por exemplo.A entrega só pode ser realizada a uma pessoa maior de 18 anos que apresente documento de identificação.É vedado à transportadora:- entrar no domicílio;- entregar por meios alternativos (exemplo: içar produto por janela);- realizar instalação ou manutenção de produtos;- abr/ir a embalagem do produto;- coletar produtos de devolução;- realizar entrega em endereço diferente ao que consta no DANFE;- realizar entrega a menores de idade ou sem documento de identificação.\n
+2. Quando recusar a entrega\n
+Os produtos são enviados ao cliente exatamente como nos foram entregues pelo fabr/icante. Se ocorrer qualquer das hipóteses abaixo, recuse o recebimento da mercadoria e escreva o motivo da recusa no verso do DANFE:\n
+embalagem aberta ou avariada;\n
+produto avariado;\n
+produto em desacordo com o pedido;\n
+falta de acessórios.\n
+Se, ainda assim, você aceitar o produto, por favor, entre em contato com o setor de atendimento ao cliente em até 72 horas.\n
+Política de Devolução\n
+Todas as ocorrências que envolvam troca ou devolução devem ser feitas no prazo de até 7 (sete) dias, a contar da data de entrega, com exceção dos itens de Moda, cujo prazo é de até 30 (trinta) dias corridos, e devem ser comunicadas ao nosso setor de atendimento ao cliente.\n
+1. Quando recusar o produto\n
+Os produtos são enviados ao cliente exatamente como nos foram entregues pelo fabricante. Se ocorrer qualquer das hipóteses abaixo, recuse o recebimento e escreva o motivo da recusa no verso do DANFE (Documento Auxiliar da Nota Fiscal Eletrônica):\n
+embalagem aberta ou avariada;\n
+produto avariado;\n
+produto em desacordo com o pedido;\n
+falta de acessórios.\n
+Se, ainda assim, você aceitar o produto, por favor, entre em contato com o setor de atendimento ao cliente em até 72 horas.\n
+2. Troca ou cancelamento da compra\n
+A devolução de qualquer produto só pode ser feita no prazo de até 7 (sete) dias, a contar da data de entrega com exceção dos itens de Moda, cujo prazo é de até 30 (trinta) dias corridos. Nesse período, se o produto apresentar defeito, ou se você não estiver satisfeito(a) com a compra, comunique nosso setor de atendimento ao cliente e solicite a troca. Para trocar um produto, as seguintes condições deverão ser observadas:\n
+O produto deverá ser encaminhado na embalagem original, sem indícios de uso, sem violação do lacre original do fabr/icante, acompanhado do DANFE, do manual e todos os acessórios.\n
+Nas solicitações de desistência de produtos é importante não ter sido violada a etiqueta/lacre (no caso de livro ou meia, o plástico que o embala).\n
+Se o produto, junto com a embalagem na qual foi entregue, pesar menos de 15Kg e suas dimensões não ultrapassarem 105cm de altura, 105cm de largura e 105cm de comprimento, a devolução pode ser feita por postagem. Caso contrário, o produto será coletado pela transportadora em data combinada, no mesmo local de entrega. As coletas são feitas de segunda-feira a sexta-feira, das 8h às 21h. Nosso transportador deixa, no local, um comprovante da coleta.Em caso de postagem, nossos operadores enviarão, por e-mail, o código de postagem que deve ser apresentado nas agências dos Correios. Esse processo é gratuito. (IMPORTANTE: Agências dos Correios Franqueadas (ACF) não aceitam o uso do instrumento de habilitação de postagem.)\n
+É fundamental seguir as instruções:\n
+acondicione o produto em sua embalagem original ou similar;\n
+devolva todos os itens/acessórios que acompanham o produto;\n
+junte a segunda via do DANFE recebida no ato da entrega. É imprescindível que ele seja enviado para que o produto seja identificado;\n
+relate, no verso do DANFE, o motivo da devolução.\n
+3. Prazo para resolução da troca\n
+O parceiro tem até 30 (trinta) dias corridos, contados a partir da data do recebimento do produto em seu Centro de Distribuição, para enviar outro produto ao cliente."
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

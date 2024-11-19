@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="383dp"
+                android:layout_height="52dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_background"
+                android:backgroundTint="#26FFFFFF"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Política de privacidade"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:text="SEÇÃO 1 - O QUE FAREMOS COM SUAS INFORMAÇÕES PESSOAIS?\n
+Quando você realiza opt-in para receber material informativo, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço. Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudem a aprender sobre seu navegador e sistema operacional. Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícias sobre nossa loja, novos produtos e outras atualizações. Nunca compartilharemos suas informações pessoais\n
+SEÇÃO 2 - CONSENTIMENTO\n
+'Como vocês obtêm meu consentimento?' Quando você fornece informações pessoais como nome, telefone e endereço. Após a realização de ações entendemos que você está de acordo com a coleta de dados para serem utilizados pela nossa empresa. Se solicitarmos informações pessoais por uma razão secundária, vamos pedir seu consentimento diretamente e lhe oferecer a oportunidade de dizer não. E caso você queira retirar seu consentimento, como proceder? Se após você nos fornecer seus dados, você mudar de ideia, basta cancelar seu consentimento para que possamos entrar em contato, para a coleção de dados contínua, uso ou divulgação de suas informações, a qualquer momento, entrando em contato conosco em vc@marco.books.com.\n
+SEÇÃO 3 - DIVULGAÇÃO\n
+Podemos divulgar suas informações pessoais caso sejamos obrigados pela lei a fazê-lo.\n
+SEÇÃO 4 - SERVIÇOS DE TERCEIROS\n
+Links Quando você clica em links externos no nosso site, eles podem lhe direcionar para fora do nosso site. Não somos responsáveis pelas práticas de privacidade de outros sites e lhe incentivamos a ler as declarações de privacidade deles.\n
+SEÇÃO 5 - SEGURANÇA\n
+Para proteger suas informações pessoais, tomamos precauções razoáveis e seguimos as melhores práticas da indústria para nos certificar de que elas não serão perdidas inadequadamente, usurpadas, acessadas, divulgadas, alteradas ou destruídas.\n
+SEÇÃO 6 - ALTERAÇÕES PARA ESSA POLÍTICA DE PRIVACIDADE\n
+Reservamos o direito de modificar essa política de privacidade a qualquer momento, então por favor, revise-a com frequência. Alterações e esclarecimentos vão surtir efeito imediatamente após sua publicação no site. Se fizermos alterações das regras desta política, iremos notificá-lo, para que você se mantenha atualizado sobre quais informações coletamos e, sob que circunstâncias, as usamos ou divulgamos (caso as utilizemos)."
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

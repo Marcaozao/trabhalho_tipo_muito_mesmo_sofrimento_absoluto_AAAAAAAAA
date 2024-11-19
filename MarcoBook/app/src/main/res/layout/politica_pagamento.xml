@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="383dp"
+                android:layout_height="52dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_background"
+                android:backgroundTint="#26FFFFFF"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Política de pagamento"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="25dp"
+                android:text="1. Métodos de Pagamento Aceitos:\n
+Aceitamos diversos métodos de pagamento para proporcionar flexibilidade aos nossos clientes. Atualmente, os métodos aceitos incluem:\n
+-Pix\n-Pix Parcelado\n-Cartão de Crédito (aceitamos as bandeiras Visa, MasterCard, American Express, Dinner's Club, Hipercard e Elo.)\n-Boleto Bancário\n-Transferência Bancária\n-PicPay\n-Google Pay\n
+2. Métodos de Parcelamento com Cartão de Crédito:\n
+Você pode parcelar suas compras em até 6 vezes sem juros, no cartão de crédito, com parcela mínima de R$50,00.\n
+Desconto via Pix:\n
+Ao optar pelo pagamento via Pix, você receberá automaticamente no checkout um desconto de 5% sobre o valor total da sua compra. Exceto no uso em conjunto com outro meio de pagamento, como Cashback ou Gift Book, então o desconto não será aplicado.\n
+4. Confirmação de Pagamento:\n
+O processo de confirmação do pagamento pode levar até 72 horas. Após a confirmação, você receberá um e-mail contendo detalhes da transação e o número do pedido. Acompanhe o status do pagamento no menu 'Meus Pedidos' em nossa plataforma.\n
+5. Meu pedido foi cancelado:\n
+Utilizamos ferramentas de segurança, verificando junto à sua operadora de cartão possíveis comportamentos suspeitos com intuito de garantir a legitimidade da transação. Qualquer irregularidade pode resultar no cancelamento do pedido para proteger seus interesses.\n
+6. Segurança e Privacidade:\n
+Priorizamos a segurança das suas informações. Todas as transações são protegidas por criptografia SSL para garantir a confidencialidade dos seus dados.\n
+7. Gift Book:\n
+O Gift Book é um método de pagamento de uso restrito apenas na loja oficial Marco.Books. O Gift Book não é recarregável, mas pode ser reutilizado em mais de uma compra até que o saldo se esgote. Este método pode ser adquirido em https://www.Marco.books.com.br/gift-book para presentear quem você ama.\n
+8. Cupons de Desconto:\n
+Os cupons de desconto não são cumulativos com outras promoções em vigor. Priorizamos a simplicidade e eficiência, assegurando que você sempre receba o melhor desconto disponível. Sempre consideramos o desconto mais vantajoso para você. Se um produto estiver em promoção com uma porcentagem de desconto superior à do cupom que você possui, o sistema automaticamente aplicará o desconto mais vantajoso, garantindo que você aproveite as melhores ofertas\n
+9. Promoções com Brindes:\n
+As promoções com brindes estão sujeitas à disponibilidade de estoque. Os brindes podem se esgotar antes do término da promoção e não serão repostos, ou poderão ser substituídos sem aviso prévio.\n
+10. Descontos e Promoções:\n
+Todos os descontos anunciados em nossa loja têm um período de validade limitado. As ofertas especiais e promoções podem ser alteradas ou encerradas sem aviso prévio.\n
+11. Prazo para Processamento de Estorno:\n
+O prazo para que o processo de estorno seja concluído é de até 4 dias úteis a partir da solicitação. Para pagamentos realizados via Pix à vista, o valor estornado será creditado imediatamente na conta do cliente, garantindo rapidez e eficiência no processo de devolução. Para pagamentos efetuados com cartão de crédito, o prazo para que o estorno apareça na fatura pode variar conforme a administradora do cartão. Em geral, o crédito será refletido em até 2 faturas subsequentes, dependendo das políticas da administradora.
+Atendimento ao Usuário:\n
+Estamos aqui para ajudar! Em caso de dúvidas entre em contato conosco nos canais de atendimento abaixo:
+WhatsApp: 085 9333-3333\nE-mail: atendimento@Marco.books.com\nHorário de atendimento: Segunda a sexta das 9h às 18h"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="383dp"
+                android:layout_height="52dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_background"
+                android:backgroundTint="#26FFFFFF"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regulamento de Cashback"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="25dp"
+                android:text="1. Todas as compras recebem cashback? Como posso consultar meu saldo?\n
+Todas as compras que se enquadram no regulamento da ação/promoção vigente (consultar página do produto), dentro do período estipulado, ganharão cashback.\n
+Para consultar seu saldo de cashback, entre na sua carteira Marco.book. Você verá todas as transações realizadas, saldo pendente, prazos de expiração e o saldo disponível para uso.\n
+2. Qual valor do cashback?\n
+O valor de cashback aplicado está em 20% para todas as compras qualificadas, podendo sofrer alterações para mais ou menos, mediante mudanças de políticas comerciais.\n
+3. O cashback é gerado com base no valor do pedido com ou sem desconto?\n
+O cashback é calculado com base no valor final pago pelos pedidos, ou seja: caso haja algum desconto na compra, o valor do cashback será o percentual em cima do valor pago com desconto.\n
+4. O valor do cashback pode ser variado entre os produtos?\n
+Eles podem variar caso haja alguma campanha específica em produtos, marcas ou linhas especiais. Sempre estará informado de modo claro para o cliente.\n
+5. O que é saldo pendente?\n
+É o período de processamento até a liberação do benefício.\n
+6. Quando o cashback fica disponível para uso?\n
+O cashback será liberado para uso em 7 dias após a compra.\n
+7. Quanto tempo tenho para usar o cashback?\n
+A validade do cashback é de 30 dias corridos após liberação.\n
+8. Como saber que meu cashback está disponível?\n
+Após o período de processamento, você receberá um SMS/e-mail, avisando que o cashback estará disponível para o resgate. \n
+9. O que acontece se eu devolver ou cancelar minha compra?\n
+O cashback utilizado voltará para a sua carteira dentro do prazo de até 72 horas.\n
+10. Se eu tiver saldo suficiente, posso usar o valor para pagar minha compra de forma integral?\n
+Não, o teto de utilização é até 25% do valor total do pedido.\n
+11. Posso usar o cashback para pagar frete?\n
+Não, não é possível selecionar apenas o frete para utilização do cashback. O cashback será contabilizado de acordo com o valor total da compra.\n
+Posso usar o cashback com cupom de outras promoções? Depende. Isso pode variar de acordo com a regra comercial de cada ação/campanha. É importante sempre ler o regulamento antes.\n
+Posso usar meu cashback na compra de GIFT BOOK? Não é permitido o acúmulo ou resgate de cashback em compras que envolvem vales-presentes.\n
+Posso transferir meu cashback para outra pessoa? Não, além de pessoal e intransferível, é importante ressaltar que o CPF é sua chave para vincular o cashback à sua conta."
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
