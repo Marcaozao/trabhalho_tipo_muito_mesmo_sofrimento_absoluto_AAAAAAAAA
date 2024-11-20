@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black_background"
-    >
+    android:background="@color/black_background">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="383dp"
@@ -25,15 +22,15 @@
                 android:background="@drawable/rounded_background"
                 android:backgroundTint="#26FFFFFF"
                 android:gravity="center"
-                >
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Política de pagamento"
                     android:textSize="32sp"
-                    android:textColor="@color/white"
-                    />
+                    android:textColor="@color/white" />
 
             </LinearLayout>
 
@@ -42,6 +39,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:layout_marginTop="25dp"
+                android:layout_margin="10dp"
                 android:text="1. Métodos de Pagamento Aceitos:\n
 Aceitamos diversos métodos de pagamento para proporcionar flexibilidade aos nossos clientes. Atualmente, os métodos aceitos incluem:\n
 -Pix\n-Pix Parcelado\n-Cartão de Crédito (aceitamos as bandeiras Visa, MasterCard, American Express, Dinner's Club, Hipercard e Elo.)\n-Boleto Bancário\n-Transferência Bancária\n-PicPay\n-Google Pay\n
@@ -67,10 +65,102 @@ Todos os descontos anunciados em nossa loja têm um período de validade limitad
 O prazo para que o processo de estorno seja concluído é de até 4 dias úteis a partir da solicitação. Para pagamentos realizados via Pix à vista, o valor estornado será creditado imediatamente na conta do cliente, garantindo rapidez e eficiência no processo de devolução. Para pagamentos efetuados com cartão de crédito, o prazo para que o estorno apareça na fatura pode variar conforme a administradora do cartão. Em geral, o crédito será refletido em até 2 faturas subsequentes, dependendo das políticas da administradora.
 Atendimento ao Usuário:\n
 Estamos aqui para ajudar! Em caso de dúvidas entre em contato conosco nos canais de atendimento abaixo:
-WhatsApp: 085 9333-3333\nE-mail: atendimento@Marco.books.com\nHorário de atendimento: Segunda a sexta das 9h às 18h"
-                />
+WhatsApp: 085 9333-3333\nE-mail: atendimento@Marco.books.com\nHorário de atendimento: Segunda a sexta das 9h às 18h" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:background="#0E0303"
+                    android:gravity="center"
+                    android:layout_gravity="bottom">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/casainha"
+                            app:tint="@color/red_escuro" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Inicio"
+                            android:textColor="@color/red_escuro"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_carrinho"
+                            app:tint="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="@color/white"
+                            android:text="Carrinho"
+                            android:id="@+id/ll_carrinho"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/corassaun"
+                            app:tint="@color/white"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="@color/white"
+                            android:text="Favoritos"
+                            android:id="@+id/ll_favoritos"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
+
+
 
     </ScrollView>
 

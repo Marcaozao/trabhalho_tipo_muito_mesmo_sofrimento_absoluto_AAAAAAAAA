@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/black_background"
-    >
+    android:background="@color/black_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +14,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
             android:orientation="vertical"
             >
 
@@ -25,6 +24,8 @@
                 android:background="@drawable/rounded_background"
                 android:backgroundTint="#26FFFFFF"
                 android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
                 >
 
                 <TextView
@@ -42,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:textColor="@color/white"
+                android:layout_margin="10dp"
                 android:text="1. Condições gerais\n
 As entregas são realizadas de segunda-feira a sexta-feira, das 8h às 21h.O prazo de entrega é contado a partir da confirmação do pagamento em dias úteis, ou seja, não inclui sábados, domingos e feriados.Excepcionalmente entregas podem ocorrer aos sábados, domingos e feriados.Por favor, confira as dimensões do produto e certifique-se de que estão adequadas aos elevadores, portas e corredores do local da entrega, pois não fazemos a montagem, desmontagem do produto e/ou portas e janelas, transporte pela escada ou içamento pelo lado de fora do prédio.IMPORTANTE: após a finalização do pedido não é possível alterar a forma de entrega, solicitar adiantamento ou prioridade. Todos os prazos de entrega levam em consideração o estoque, a região, o processo de emissão da nota fiscal e o tempo de preparo do produto. A cada atualização no status do pedido nosso sistema envia, automaticamente, e-mails de alerta. Por isso, é importante manter seu e-mail atualizado no cadastro.\n
 Após a conclusão do pedido, não é possível alterar o endereço de entrega. Caso tenha fornecido o endereço errado, entre em contato com o setor de atendimento ao cliente e solicite o cancelamento da compra.\n
@@ -75,6 +77,97 @@ relate, no verso do DANFE, o motivo da devolução.\n
 3. Prazo para resolução da troca\n
 O parceiro tem até 30 (trinta) dias corridos, contados a partir da data do recebimento do produto em seu Centro de Distribuição, para enviar outro produto ao cliente."
             />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:background="#0E0303"
+                    android:gravity="center"
+                    android:layout_gravity="bottom">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/casainha"
+                            app:tint="@color/red_escuro" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Inicio"
+                            android:textColor="@color/red_escuro"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_carrinho"
+                            app:tint="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="@color/white"
+                            android:text="Carrinho"
+                            android:id="@+id/ll_carrinho"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/corassaun"
+                            app:tint="@color/white"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="@color/white"
+                            android:text="Favoritos"
+                            android:id="@+id/ll_favoritos"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 

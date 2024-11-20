@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/black_background"
-    >
+    android:background="@color/black_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +14,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
             android:orientation="vertical"
             >
 
@@ -25,6 +24,8 @@
                 android:background="@drawable/rounded_background"
                 android:backgroundTint="#26FFFFFF"
                 android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
                 >
 
                 <TextView
@@ -42,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:textColor="@color/white"
+                android:layout_margin="10dp"
                 android:text="SEÇÃO 1 - O QUE FAREMOS COM SUAS INFORMAÇÕES PESSOAIS?\n
 Quando você realiza opt-in para receber material informativo, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço. Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudem a aprender sobre seu navegador e sistema operacional. Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícias sobre nossa loja, novos produtos e outras atualizações. Nunca compartilharemos suas informações pessoais\n
 SEÇÃO 2 - CONSENTIMENTO\n
@@ -55,6 +57,97 @@ Para proteger suas informações pessoais, tomamos precauções razoáveis e seg
 SEÇÃO 6 - ALTERAÇÕES PARA ESSA POLÍTICA DE PRIVACIDADE\n
 Reservamos o direito de modificar essa política de privacidade a qualquer momento, então por favor, revise-a com frequência. Alterações e esclarecimentos vão surtir efeito imediatamente após sua publicação no site. Se fizermos alterações das regras desta política, iremos notificá-lo, para que você se mantenha atualizado sobre quais informações coletamos e, sob que circunstâncias, as usamos ou divulgamos (caso as utilizemos)."
             />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_marginTop="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:background="#0E0303"
+                    android:gravity="center"
+                    android:layout_gravity="bottom">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/casainha"
+                            app:tint="@color/red_escuro" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Inicio"
+                            android:textColor="@color/red_escuro"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_carrinho"
+                            app:tint="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="@color/white"
+                            android:text="Carrinho"
+                            android:id="@+id/ll_carrinho"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/corassaun"
+                            app:tint="@color/white"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="@color/white"
+                            android:text="Favoritos"
+                            android:id="@+id/ll_favoritos"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 

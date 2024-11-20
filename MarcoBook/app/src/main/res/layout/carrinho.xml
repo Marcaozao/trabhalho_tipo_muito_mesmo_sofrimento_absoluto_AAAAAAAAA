@@ -18,14 +18,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Meu carrinho"
-                    android:textSize="32sp" />
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    />
 
                 <Button
                     android:layout_width="wrap_content"
@@ -316,7 +320,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="R$ 86,30"
-                            android:textStrikethrough="true"
                             android:textColor="#80FFFFFF"
                             />
 
@@ -525,7 +528,6 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <!-- Primeira coluna com textos -->
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -552,7 +554,6 @@
 
                     </LinearLayout>
 
-                    <!-- Segunda coluna com números, alinhada à direita -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -608,6 +609,92 @@
                             />
 
                     </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal"
+                android:background="#0E0303"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:id="@+id/ll_inicio"
+                    >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/casainha"
+                        app:tint="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Inicio"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_carrinho"
+                        app:tint="@color/red_escuro"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:textColor="@color/red_escuro"
+                        android:text="Carrinho"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:id="@+id/ll_favoritos"
+                    >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/corassaun"
+                        app:tint="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:text="Favoritos"
+                        />
 
                 </LinearLayout>
 

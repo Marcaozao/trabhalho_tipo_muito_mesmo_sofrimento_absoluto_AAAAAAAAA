@@ -44,7 +44,7 @@ public class LivroDao implements IGenericDao<Livro>{
 
         //Abrir a Conexao com a base de dados
         openHelper = new SQLiteDataHelper(this.context,
-                "UNIPARCVEL_BD", null, 1);
+                "MARCOBOOK_DB", null, 1);
 
         baseDados = openHelper.getWritableDatabase();
 
@@ -59,8 +59,9 @@ public class LivroDao implements IGenericDao<Livro>{
     public long insert(Livro obj) {
         try{
             ContentValues valores = new ContentValues();
-            valores.put(colunas[0], obj.getRa());
-            valores.put(colunas[1], obj.getNome());
+            valores.put(colunas[0], obj.getNome());
+            valores.put(colunas[1], obj.getPreco());
+            valores.put(colunas[2], obj.getQuant_vendas());
 
             return baseDados.insert(tabela, null, valores);
 
@@ -85,7 +86,7 @@ public class LivroDao implements IGenericDao<Livro>{
             valores.put(colunas[1], obj.getNome());
 
             String[]identificador =
-                    {String.valueOf(obj.getRa())};
+                    {String.valueOf(obj.getNome())};
 
             return baseDados.update(tabela,
                     valores,
@@ -104,7 +105,7 @@ public class LivroDao implements IGenericDao<Livro>{
     public long delete(Livro obj) {
         try{
             String[]identificador =
-                    {String.valueOf(obj.getRa())};
+                    {String.valueOf(obj.getNome())};
 
             return baseDados.delete(tabela,
                     colunas[0]+" = ?",
@@ -127,19 +128,12 @@ public class LivroDao implements IGenericDao<Livro>{
                     colunas, null, null,
                     null, null, colunas[0]);
 
-            while(cursor.moveToNext()){
-                Livro livro = new Livro();
-                livro.setRa(cursor.getInt(0));
-                livro.setNome(cursor.getString(1));
-
-                lista.add(livro);
-            }
 
             cursor.close();
             return lista;
 
         }catch (SQLException ex){
-            Log.e("UNIPAR",
+            Log.e("LIVRO",
                     "ERRO: LivroDao.getAll() "+
                             ex.getMessage());
         }
@@ -167,7 +161,7 @@ public class LivroDao implements IGenericDao<Livro>{
                 return livro;
             }
         }catch (SQLException ex){
-            Log.e("UNIPAR",
+            Log.e("LIVRO",
                     "ERRO: LivroDao.getById() "+
                             ex.getMessage());
         }
